@@ -49,21 +49,13 @@ export default function Projects() {
           <div className="space-y-6">
             {projects.map((project, i) => (
               <div key={project.number}
-                className={`group p-7 rounded-2xl border transition-all duration-200 hover:shadow-xl ${
-                  project.featured
-                    ? "bg-[#0a3358] border-[#38bdf8]/20 hover:border-[#38bdf8]/40 hover:shadow-[#38bdf8]/10"
-                    : "bg-[#031020] border-[#0e3a5e] hover:border-[#38bdf8]/20"
-                }`}
+                className="group p-7 rounded-2xl border bg-[#031020] border-[#0e3a5e] transition-all duration-200 hover:shadow-xl hover:border-[#38bdf8]/20"
                 style={{ transitionDelay: `${i * 80}ms` }}>
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="text-xs font-mono text-[#7dd3fc]/40">{project.number}</span>
-                      <span className={`text-xs px-2.5 py-1 rounded-full font-medium ${
-                        project.featured
-                          ? "bg-[#38bdf8]/15 text-[#38bdf8] border border-[#38bdf8]/20"
-                          : "bg-[rgba(56,189,248,0.08)] text-[#7dd3fc] border border-[#0e3a5e]"
-                      }`}>{project.type}</span>
+                      <span className="text-xs px-2.5 py-1 rounded-full font-medium bg-[rgba(56,189,248,0.08)] text-[#7dd3fc] border border-[#0e3a5e]">{project.type}</span>
                     </div>
                     <h3 className="font-display text-2xl text-[#f0f9ff] mb-3">{project.title}</h3>
                     <p className="text-sm leading-relaxed max-w-xl text-[#bae6fd]/80">{project.description}</p>
