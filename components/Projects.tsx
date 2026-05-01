@@ -14,13 +14,13 @@ const projects = [
       "Designed and implemented the core UI/UX to ensure an intuitive and user-centered platform experience"
     ],
     tags: ["Python", "FastAPI", "React", "Next.js", "MySQL", "Pytest"], type: "Full Stack",
-    github: "https://github.com/Iqbaal-pro/HealixPharm", live: "", featured: true,
+    github: "https://github.com/Iqbaal-pro/HealixPharm", live: "", featured: false,
   },
   {
     number: "02", title: "Property Listing Web App",
     description: "Implemented a responsive React-based front-end for a property sales and rental platform. Designed reusable components for displaying dynamic property data.",
     tags: ["React", "JavaScript", "HTML/CSS"], type: "Frontend",
-    github: "https://github.com/visakya/estate-agent-app", live: "", featured: true,
+    github: "https://github.com/visakya/estate-agent-app", live: "", featured: false,
   },
   {
     number: "03", title: "EarthCare UX/UI Prototype",
@@ -63,8 +63,8 @@ export default function Projects() {
                       <ul className="mt-3 space-y-1 max-w-xl">
                         {project.contributions.map((point, idx) => (
                           <li key={idx} className="text-sm text-[#bae6fd]/70 flex gap-2">
-                             <span className="text-[#38bdf8] mt-0.5 shrink-0">›</span>
-                             <span>{point}</span>
+                            <span className="text-[#38bdf8] mt-0.5 shrink-0">›</span>
+                            <span>{point}</span>
                           </li>
                         ))}
                       </ul>
