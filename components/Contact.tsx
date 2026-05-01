@@ -51,7 +51,7 @@ export default function Contact() {
                 Let&apos;s work <span className="italic text-[#38bdf8]">together</span>
               </h2>
               <p className="text-[#bae6fd]/70 leading-relaxed mb-8">
-                I&apos;m actively looking for internship opportunities in Frontend Development, UI/UX Design, Full Stack Engineering, and QA. If you think there&apos;s a good fit, I&apos;d love to hear from you.
+                I&apos;m actively looking for internship opportunities in QA, UI/UX, Frontend Development, and Project Management. If you think there&apos;s a good fit, I&apos;d love to hear from you.
               </p>
               <div className="space-y-4 mb-10">
                 <a href="mailto:oneli.20241796@iit.ac.lk"
