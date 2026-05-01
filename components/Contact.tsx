@@ -11,9 +11,33 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
-    await new Promise((r) => setTimeout(r, 1200));
-    setStatus("sent");
-    setForm({ name: "", email: "", message: "" });
+
+    try {
+      const response = await fetch("https://formspree.io/f/xbdwllpy", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
+      });
+
+      if (response.ok) {
+        setStatus("sent");
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        setStatus("idle");
+        alert("Something went wrong. Please try again or email me directly.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setStatus("idle");
+      alert("Something went wrong. Please try again or email me directly.");
+    }
   };
 
   return (
