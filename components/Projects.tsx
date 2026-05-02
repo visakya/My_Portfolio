@@ -20,7 +20,7 @@ const projects = [
     number: "02", title: "Property Listing Web App",
     description: "Implemented a responsive React-based front-end for a property sales and rental platform. Designed reusable components for displaying dynamic property data.",
     tags: ["React", "JavaScript", "HTML/CSS"], type: "Frontend",
-    github: "https://github.com/visakya/estate-agent-app", live: "https://visakya.github.io/estate-agent-app", featured: false,
+    github: "https://github.com/visakya/estate-agent-app", live: "https://visakya.github.io/estate-agent-app/", featured: false,
   },
   {
     number: "03", title: "EarthCare UX/UI Prototype",
