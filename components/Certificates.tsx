@@ -11,11 +11,11 @@ type Certificate = {
 };
 
 const certificates: Certificate[] = [
-  { title: "Java Object-Oriented Programming", issuer: "LinkedIn", date: "Completed", credential: "#certificates", tags: ["Java", "OOP"] },
-  { title: "Learning Python", issuer: "LinkedIn Learning", date: "Completed", credential: "https://lnkd.in/e6w7epRq", tags: ["Python"] },
-  { title: "Python GUI Development with Tkinter", issuer: "LinkedIn Learning", date: "Completed", credential: "https://lnkd.in/eg4qmsAT", tags: ["Python", "Tkinter", "GUI"] },
-  { title: "Python Object-Oriented Programming", issuer: "LinkedIn Learning", date: "Completed", credential: "https://lnkd.in/etTbF6rz", tags: ["Python", "OOP"] },
-  { title: "Python for Non-Programmers", issuer: "LinkedIn Learning", date: "Completed", credential: "https://lnkd.in/exnndU_E", tags: ["Python"] }
+  { title: "Java Object-Oriented Programming", issuer: "LinkedIn", date: "Completed", credential: "https://www.linkedin.com/posts/oneli-herath_java-objectorientedprogramming-activity-7352649672919814144-sKBI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgj8IMBuk7HoGKuZjdKZff9ORCOqPVG3Pk", tags: ["Java", "OOP"] },
+  { title: "Learning Python", issuer: "LinkedIn Learning", date: "Completed", credential: "https://www.linkedin.com/posts/oneli-herath_certificate-of-completion-activity-7318503098136580096-l854?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgj8IMBuk7HoGKuZjdKZff9ORCOqPVG3Pk", tags: ["Python"] },
+  { title: "Python GUI Development with Tkinter", issuer: "LinkedIn Learning", date: "Completed", credential: "https://www.linkedin.com/posts/oneli-herath_certificate-of-completion-activity-7319917914378162177-vgcR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgj8IMBuk7HoGKuZjdKZff9ORCOqPVG3Pk", tags: ["Python", "Tkinter", "GUI"] },
+  { title: "Python Object-Oriented Programming", issuer: "LinkedIn Learning", date: "Completed", credential: "https://www.linkedin.com/posts/oneli-herath_certificate-of-completion-activity-7322520216645652480-K75i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgj8IMBuk7HoGKuZjdKZff9ORCOqPVG3Pk", tags: ["Python", "OOP"] },
+  { title: "Python for Non-Programmers", issuer: "LinkedIn Learning", date: "Completed", credential: "https://www.linkedin.com/posts/oneli-herath_certificate-of-completion-activity-7322698295691153408-iUek?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgj8IMBuk7HoGKuZjdKZff9ORCOqPVG3Pk", tags: ["Python"] }
 ];
 
 const workshops = [
