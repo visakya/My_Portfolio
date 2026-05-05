@@ -35,7 +35,7 @@ export default function About() {
               <img
                 src="/profile.jpeg"
                 alt="Oneli Herath"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-center"
               />
               <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-[#38bdf8]/30 rounded-tr-lg" />
               <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-[#38bdf8]/30 rounded-bl-lg" />
