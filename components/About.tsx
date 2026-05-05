@@ -31,7 +31,7 @@ export default function About() {
             </div>
           </div>
           <div className="space-y-8">
-            <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#072544] border border-[#0e3a5e] flex items-center justify-center">
+            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-[#072544] border border-[#0e3a5e]">
               <img
                 src="/profile.jpeg"
                 alt="Oneli Herath"
