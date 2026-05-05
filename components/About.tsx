@@ -32,11 +32,11 @@ export default function About() {
           </div>
           <div className="space-y-8">
             <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#072544] border border-[#0e3a5e] flex items-center justify-center">
-              <div className="text-center text-[#7dd3fc]">
-                <div className="w-20 h-20 rounded-full bg-[#0e3a5e] mx-auto flex items-center justify-center">
-                  <span className="font-display text-3xl text-[#38bdf8]/40">OH</span>
-                </div>
-              </div>
+              <img
+                src="/profile.jpeg"
+                alt="Oneli Herath"
+                className="w-full h-full object-cover object-top"
+              />
               <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-[#38bdf8]/30 rounded-tr-lg" />
               <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-[#38bdf8]/30 rounded-bl-lg" />
             </div>
